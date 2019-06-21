@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<head lang="en">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PRACTICE">
+  <meta name="author" content="Alao Kayode">
+  <link rel="stylesheet" type "text/css" href="styles.css" />
+  <title>SURVEY FORMS</title>
+</head>
+
+<body>
+
+  <h1 id="title">Rate My Website</h1>
+  <p>Your input really matter to me.</p>
+
+  <form id="survey-form" action="#" method="post">
+
+    <label id="name">Full Name</label><br>
+    <input type="text" id="name-label" name="name" placeholder="Enter your full name here" /><br>
+
+    <label id="email">E-mail</label><br>
+    <input type="email" id="email-label" placeholder="Email goes here" /><br>
+
+    <label id="number">Phone number</label><br>
+    <input type="tel" id="number-label" placeholder="Phone number here" /><br>
+
+    <label for="Male">Gender <br>      <input id="indoor"      type="radio"    name="indoor-outdoor"> Male  </label>
+    <label for="Female">    <input id="outdoor"     type="radio"    name="indoor-outdoor"> Female</label><br>
+
+    <!--
+        <div    class="">
+            <button onclick=""  class="drotn">Gender</button>
+            <div    id="myDropdown" class="dropdown-content">
+                <a  href="#">Male</a>
+                <a  href="#">Female</a>
+            </div>
+        </div><br>
+-->
+    <div>
+      <span>Rate me from 1 to 3. 1 for Good, 2 for Very Good and 3 for Fanstastic.</span><br>
+      <label><input   type="checkbox"     name="rate"> 1  </label>
+      <label><input   type="checkbox"     name="rate"> 2  </label>
+      <label><input   type="checkbox"     name="rate"> 3  </label>
+    </div><br>
+
+    <div>
+      <label>Which of the programming languages do you know best?</label><br>
+      <select>
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="PHP">PHP</option>
+            <option value="MySQL">MySQL</option>
+            <option value="Java">Java</option>
+            <option value="VB.NET">VB.NET</option>
+            <option value="Python">Python</option>
+            <option value="None">None</option>
+            <option value="Other">Other</option>
+            </select>
+    </div><br>
+
+    <label>Feedback</label><br>
+    <textarea id="text" name="message" id="text-area" placeholder="Type your message here"></textarea>
+
+    <br><button id="submit">SUBMIT</button>
+  </form>
+
+</body>

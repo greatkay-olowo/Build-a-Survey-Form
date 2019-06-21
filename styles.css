@@ -1,0 +1,39 @@
+*   {
+    margin:     0;
+    padding:    0;
+    font-size: 20px;
+    font-family: monospace;
+    text-align: center;
+}
+
+p, #title   {
+    text-align: center;
+
+    font-size: 45px;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+p   {
+    font-size: 20px;
+}
+
+#survey-form    {
+    background-color: rgba(255, 156, 156, 0.49);
+    max-height: contain;
+    max-width: 700px;
+    margin: 10px auto;
+    padding: 40px;
+    
+    
+}
+
+#check  .class1 {
+    letter-spacing: 10px;
+    margin: 0 10px;
+}
+
+
+#name-label, #email-label, #number-label, #outdoor, #check, #text, #submit, div  {
+    margin-bottom: 30px;
+}
